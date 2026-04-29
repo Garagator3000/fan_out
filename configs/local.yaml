@@ -1,0 +1,7 @@
+log_level: debug
+
+app:
+  port: 3000
+  shards: 3
+  file_pattern: file_shard_{}.log
+  file_path: ./tests/
